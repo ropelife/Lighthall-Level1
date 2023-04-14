@@ -1,6 +1,16 @@
 import { useState, useEffect } from 'react';
 
 function App() {
+
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    window.alert('Please allow location access. It may take some time to load your geographic location.'); // display alert message
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 3000); // wait for 3 seconds before setting the state to true
+  }, []);
+
   const [clickCount, setClickCount] = useState(parseInt(localStorage.getItem('clickCount') || '0'));
   const [location, setLocation] = useState(JSON.parse(localStorage.getItem('location') || 'null'));
   const [cityCounts, setCityCounts] = useState(JSON.parse(localStorage.getItem('cityCounts') || '[]'));
@@ -71,6 +81,7 @@ function App() {
         </tbody>
       </table>
     </div>
+  
   );
 }
 

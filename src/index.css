@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #008080; /* Set the background color */
+  background-color: black; /* Set the background color */
   text-align: center;
   color: whitesmoke;
   
@@ -37,12 +37,12 @@ h1{
 }
 
 .myButton {
-  background-color: white;
-  color: #008080;
+  background-color: #008080;
+  color: whitesmoke;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  border-color: white;
+  border-color: #008080;
 }
 
 .underlined {
