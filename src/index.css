@@ -62,4 +62,17 @@ h1{
 h4{
   padding-top: 20px;
   padding-bottom: 10px;
+  color: #F9AA00;
+}
+
+p{
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.small-hr {
+  height: 1px; /* set the height of the line */
+  width: 50%; /* set the width of the line */
+  margin: 20px auto; /* set the margin to center the line */
+  background-color: #008080; /* set the color of the line */
 }
