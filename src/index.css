@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #008080; /* Set the background color */
+  text-align: center;
+  color: whitesmoke;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid whitesmoke;
+  padding: 8px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid whitesmoke;
+  padding: 8px;
+  text-align: left;
+}
+
+h1{
+  padding-top: 20px;
+}
+
+.myButton {
+  background-color: white;
+  color: #008080;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.table-container {
+  margin: 0 auto; /* This centers the container horizontally */
+  color: white;
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+}
+
+h4{
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
